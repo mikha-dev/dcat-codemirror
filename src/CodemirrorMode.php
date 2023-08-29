@@ -3,9 +3,9 @@
 namespace Dcat\Admin;
 
 use Dcat\Admin\DcatEnum;
-use Dcat\Admin\Form\Field;
+use Dcat\Admin\Traits\DcatEnumTrait;
 
-enum CodemirrorMode string implements DcatEnum
+enum CodemirrorMode: string implements DcatEnum
 {
     use DcatEnumTrait;
 

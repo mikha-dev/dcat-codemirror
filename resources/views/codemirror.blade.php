@@ -26,7 +26,6 @@
     });
     Editor.on("change", function (Editor, changes) {
         let val = Editor.getValue();
-        //console.log(val);
-        $this.parents('.form-field').find('input[name="hidden"]').val(val);
+        $('input[name="{{$name}}"]').val(val);
     });
 </script>
