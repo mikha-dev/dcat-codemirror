@@ -2,12 +2,12 @@
 
 namespace Dcat\Admin;
 
-use D4T\Core\Contracts\D4TEnum;
-use D4T\Core\Traits\D4TEnumTrait;
+use Dcat\Admin\DcatEnum;
+use Dcat\Admin\Traits\DcatEnumTrait;
 
-enum CodemirrorMode: string implements D4TEnum
+enum CodemirrorMode: string implements DcatEnum
 {
-    use D4TEnumTrait;
+    use DcatEnumTrait;
 
     case PHP = 'text/x-php';
     case CSS = 'text/css';
